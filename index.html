@@ -1,8 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap"
+      rel="stylesheet"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- normalize css  -->
     <link rel="stylesheet" href="./css/normalize.css" />
@@ -14,9 +26,397 @@
     <!-- all wrapper  -->
     <div class="all-wrapper">
       <!-- site header  -->
-      <header class="site-header"></header>
+      <header class="site-header">
+        <div class="container site-header__container">
+          <div class="site-header__wrapper">
+            <a class="site-header__logo" href="./index.html">
+              <img
+                class="site-header__img"
+                src="./img/header.logo.svg"
+                alt="one gray dog"
+              />
+            </a>
+            <nav class="site-header__nabar navbar">
+              <ul class="navbar__list">
+                <li class="navbar__item">
+                  <a class="site-header__link" href="#link">BARF</a>
+                </li>
+                <li class="navbar__item">
+                  <a class="site-header__link" href="#link">Рационы</a>
+                </li>
+                <li class="navbar__item">
+                  <a class="site-header__link" href="#link">ZOOOV</a>
+                </li>
+                <li class="navbar__item">
+                  <a class="site-header__link" href="#link">О нас</a>
+                </li>
+                <li class="navbar__item">
+                  <a class="site-header__link" href="#link">Доставка</a>
+                </li>
+                <li class="navbar__item">
+                  <a class="site-header__link" href="#link">FAQ</a>
+                </li>
+                <li class="navbar__item">
+                  <a class="site-header__link" href="#link">Контакты</a>
+                </li>
+              </ul>
+              <button class="navbar-btn"></button>
+            </nav>
+          </div>
+        </div>
+      </header>
       <!-- site main  -->
-      <main class="site-main"></main>
+      <main>
+        <section class="hero">
+          <div class="hero__aditional">
+            <div class="container hero__container">
+              <div class="hero__wrapper">
+                <div class="hero__content">
+                  <h1 class="hero__title">
+                    Питание, которое полюбит ваш хвостик
+                  </h1>
+                  <p class="hero__text">
+                    Натуральные рационы питания для собак по системе BARF
+                  </p>
+                  <a class="hero__link" href="#link">Выбрать рацион</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="barf">
+          <div class="container barf__container">
+            <div class="barf__wrapper">
+              <div class="barf__content">
+                <div class="barf__title-wrapper">
+                  <h2 class="barf__title">Что такое BARF</h2>
+                  <p class="barf__text">
+                    BARF (Biologically Appropriate Raw Food) — система питания
+                    собак, основанная на сырых натуральных продуктах. Такой
+                    рацион максимально приближен к естественному пищевому
+                    поведению хищников, а значит биологически правилен.
+                  </p>
+                  <h3 class="barf__subtitle">
+                    После перехода на питание по системе BARF у собак:
+                  </h3>
+                  <ul class="barf__list">
+                    <li class="barf__item">
+                      <span></span>
+                      <p class="barf__item-text">Нормализуется пищеварение</p>
+                    </li>
+                    <li class="barf__item">
+                      <span></span>
+                      <p class="barf__item-text">
+                        Прекращается образование зубного камня
+                      </p>
+                    </li>
+                    <li class="barf__item">
+                      <span></span>
+                      <p class="barf__item-text">Прекращается образование</p>
+                    </li>
+                    <li class="barf__item">
+                      <span></span>
+                      <p class="barf__item-text">Появляется больше энергии</p>
+                    </li>
+                    <li class="barf__item">
+                      <span></span>
+                      <p class="barf__item-text">
+                        Увеличивается продолжительность жизни
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+                <div class="barf__img-wrapper">
+                  <img
+                    class="barf__img"
+                    src="./img/barf.dog.png"
+                    alt="one dog is eating a meal"
+                  />
+                </div>
+              </div>
+              <div class="barf__end for">
+                <ul class="for__list">
+                  <li class="for__item">
+                    <h3 class="for__title">Для взрослых</h3>
+                    <div class="for__list-wrapper">
+                      <ul class="for__list-inner">
+                        <li class="for__item-inner1">
+                          <p class="for__item-text">Мясо – 70%</p>
+                        </li>
+                        <li class="for__item-inner2">
+                          <p class="for__item-text">Кости – 10%</p>
+                        </li>
+                        <li class="for__item-inner3">
+                          <p class="for__item-text">Овощи – 7%</p>
+                        </li>
+                        <li class="for__item-inner4">
+                          <p class="for__item-text">Печень – 5%</p>
+                        </li>
+                      </ul>
+                      <ul class="for__list-inner2">
+                        <li class="for__item-inner5">
+                          <p class="for__item-text">Субпродукты – 5%</p>
+                        </li>
+                        <li class="for__item-inner6">
+                          <p class="for__item-text">Семена/Орехи – 2%</p>
+                        </li>
+                        <li class="for__item-inner7">
+                          <p class="for__item-text">Фрукты – 1%</p>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="for__item2">
+                    <h3 class="for__title">Для взрослых</h3>
+                    <div class="for__list-wrapper">
+                      <ul class="for__list-inner">
+                        <li class="for__item-inner1">
+                          <p class="for__item-text">Мясо – 58%</p>
+                        </li>
+                        <li class="for__item-inner2">
+                          <p class="for__item-text">Кости – 17%</p>
+                        </li>
+                        <li class="for__item-inner3">
+                          <p class="for__item-text">Овощи – 7%</p>
+                        </li>
+                        <li class="for__item-inner4">
+                          <p class="for__item-text">Печень – 7%</p>
+                        </li>
+                      </ul>
+                      <ul class="for__list-inner2">
+                        <li class="for__item-inner5">
+                          <p class="for__item-text">Субпродукты – 7%</p>
+                        </li>
+                        <li class="for__item-inner6">
+                          <p class="for__item-text">Семена/Орехи – 3%</p>
+                        </li>
+                        <li class="for__item-inner7">
+                          <p class="for__item-text">Фрукты – 1%</p>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="zooov">
+          <div class="container zooov__container">
+            <div class="zooov__wrapper">
+              <div class="zooov__title-wrap">
+                <h2 class="zooov__title">Пробные наборы от ZOOOV</h2>
+                <p class="zooov__text">
+                  Порой очень сложно определиться с выбором и хочется
+                  попробовать всё и сразу. Ваш хвостик может попробовать разные
+                  вкусы и определится что ему больше нравится.
+                </p>
+              </div>
+              <div class="zooov__list-wrapper">
+                <ul class="zooov__list">
+                  <li class="zooov__item">
+                    <div class="zooov__img-wrap">
+                      <img
+                        class="zooov__img"
+                        src="./img/zooov1.png"
+                        alt="one dog is eating a fish"
+                      />
+                      <p class="zooov__text-inner">Для собак до 10кг</p>
+                    </div>
+                    <div class="zooov__content ordering">
+                      <h3 class="ordering__title">Набор M</h3>
+                      <p class="ordering__text">
+                        4 шт. – баранина/кролик 3 шт. – говядина/индейка
+                      </p>
+                      <small class="ordering__small"
+                        >Вес каждой упаковки – 300г</small
+                      >
+                      <div class="ordering__number-wrap">
+                        <p class="ordering__number">2 423.-</p>
+                        <p class="ordering__number2">1 680.-</p>
+                      </div>
+                      <a class="ordering__link" href="#link">Заказать</a>
+                    </div>
+                  </li>
+                  <li class="zooov__item">
+                    <div class="zooov__img-wrap">
+                      <img
+                        class="zooov__img"
+                        src="./img/zooov2.png"
+                        alt="one dog is eating a vegetables"
+                      />
+                      <p class="zooov__text-inner">Для собак до 15кг</p>
+                    </div>
+                    <div class="zooov__content ordering">
+                      <h3 class="ordering__title">Набор L</h3>
+                      <p class="ordering__text">
+                        4 шт. – баранина/кролик 3 шт. – говядина/индейка
+                      </p>
+                      <small class="ordering__small"
+                        >Вес каждой упаковки – 500г</small
+                      >
+                      <div class="ordering__number-wrap">
+                        <p class="ordering__number">3 983.-</p>
+                        <p class="ordering__number2">2 770.-</p>
+                      </div>
+
+                      <a class="ordering__link" href="#link">Заказать</a>
+                    </div>
+                  </li>
+                  <li class="zooov__item">
+                    <div class="zooov__img-wrap">
+                      <img
+                        class="zooov__img"
+                        src="./img/zooov3.png"
+                        alt="one dog is eating a meal"
+                      />
+                      <p class="zooov__text-inner">Для собак до 20кг</p>
+                    </div>
+                    <div class="zooov__content ordering">
+                      <h3 class="ordering__title">Набор XL</h3>
+                      <p class="ordering__text">
+                        4 шт. – баранина/кролик 3 шт. – говядина/индейка
+                      </p>
+                      <small class="ordering__small"
+                        >Вес каждой упаковки – 700г</small
+                      >
+                      <div class="ordering__number-wrap">
+                        <p class="ordering__number">5 437.-</p>
+                        <p class="ordering__number2">3 810.-</p>
+                      </div>
+                      <a class="ordering__link" href="#link">Заказать</a>
+                    </div>
+                  </li>
+                </ul>
+                <div class="zooov__last-part right">
+                  <div class="right__content">
+                    <p class="right__text">
+                      Рассчитаем в каком количестве нужно кормить вашего
+                      хвостика рационами Zooov
+                    </p>
+                    <a class="right__link" href="#link">Расчитать</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="type">
+          <div class="container">
+            <div class="type__wrapper">
+              <div class="type__title-wrap">
+                <h2 class="type__title">Рационы ZOOOV</h2>
+                <p class="type__text">
+                  Система питания взрослой собаки не подойдет для щенка, поэтому
+                  мы создали разные по составу рационы ZOOOV. Вы сможете
+                  заказать полноценное питание исходя из возраста, веса и даже
+                  вкусовых предпочтений вашего друга. ZOOOV заботится о каждой
+                  собаке.
+                </p>
+              </div>
+              <ul class="zooov__list">
+                <li class="zooov__item">
+                  <div class="zooov__img-wrap">
+                    <img
+                      class="zooov__img"
+                      src="./img/type1.png"
+                      alt="sveral fruites"
+                    />
+                  </div>
+                  <div class="zooov__content ordering">
+                    <h3 class="ordering__title">Для взрослых собак</h3>
+                    <p class="ordering__text-small">Индейка/Говядина</p>
+                    <p class="ordering__text">
+                      Подходит для ежедвеного кормления. Богат животными белками
+                      и Омега-3.
+                    </p>
+                    <small class="ordering__small"
+                      >700г / 500г / 300г / 150г / 100г</small
+                    >
+                    <a class="ordering__link" href="#link">Заказать</a>
+                  </div>
+                </li>
+                <li class="zooov__item">
+                  <div class="zooov__img-wrap">
+                    <img
+                      class="zooov__img"
+                      src="./img/type2.png"
+                      alt="sveral fruites"
+                    />
+                  </div>
+                  <div class="zooov__content ordering">
+                    <h3 class="ordering__title">Для щенков</h3>
+                    <p class="ordering__text-small">Индейка/Говядина</p>
+                    <p class="ordering__text">
+                      Подходит для ежедвеного кормления. Богат животными белками
+                      и Омега-3.
+                    </p>
+                    <small class="ordering__small"
+                      >700г / 500г / 300г / 150г / 100г</small
+                    >
+                    <a class="ordering__link" href="#link">Заказать</a>
+                  </div>
+                </li>
+                <li class="zooov__item">
+                  <div class="zooov__img-wrap">
+                    <img
+                      class="zooov__img"
+                      src="./img/type3.png"
+                      alt="sveral fruites"
+                    />
+                  </div>
+                  <div class="zooov__content ordering">
+                    <h3 class="ordering__title">Для взрослых собак</h3>
+                    <p class="ordering__text-small">Индейка/Говядина</p>
+                    <p class="ordering__text">
+                      Подходит для ежедвеного кормления. Богат животными белками
+                      и Омега-3.
+                    </p>
+                    <small class="ordering__small"
+                      >700г / 500г / 300г / 150г / 100г</small
+                    >
+                    <a class="ordering__link" href="#link">Заказать</a>
+                  </div>
+                </li>
+                <li class="zooov__item">
+                  <div class="zooov__img-wrap">
+                    <img
+                      class="zooov__img"
+                      src="./img/type4.png"
+                      alt="sveral fruites"
+                    />
+                  </div>
+                  <div class="zooov__content ordering">
+                    <h3 class="ordering__title">Для щенков</h3>
+                    <p class="ordering__text-small">Индейка/Говядина</p>
+                    <p class="ordering__text">
+                      Подходит для ежедвеного кормления. Богат животными белками
+                      и Омега-3.
+                    </p>
+                    <small class="ordering__small"
+                      >700г / 500г / 300г / 150г / 100г</small
+                    >
+                    <a class="ordering__link" href="#link">Заказать</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="recommend">
+          <div class="container">
+            <div class="recommend__wrapper">
+              <div class="recommend__title-wrap">
+                Рекомендованные нормы кормления
+              </div>
+              <ul class="recommend__list">
+                <h2 class="recommend__list-title">ДЛЯ ВЗРОСЛЫХ СОБАК</h2>
+                <small class="recommend__small">от 1 года</small>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </main>
     </div>
     <!-- site footer  -->
     <footer class="site-footer"></footer>

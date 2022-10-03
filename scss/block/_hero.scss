@@ -1,0 +1,111 @@
+.hero {
+  background-image: url("../../img/hero.bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 180px;
+}
+
+.hero__aditional {
+  background-image: url("../../img/hero.word.svg");
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+.hero__wrapper {
+  max-width: 1200px;
+}
+
+.hero__content {
+  padding-top: 226px;
+  padding-bottom: 225px;
+  max-width: 412px;
+}
+
+.hero__title {
+  max-width: 412px;
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 130%;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin: 0;
+  margin-bottom: 10px;
+  position: relative;
+  z-index: 2;
+}
+
+.hero__title::after {
+  content: "";
+  width: 266px;
+  height: 99px;
+  background-repeat: no-repeat;
+  background-image: url("../../img/hero.line.svg");
+  position: absolute;
+  right: 0;
+  top: 56px;
+  z-index: -1;
+}
+
+.hero__text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+
+.hero__link {
+  @include link;
+}
+
+@media only screen and (max-width: 823px) {
+  .hero {
+    margin-bottom: 80px;
+    background-image: url("../../img/hero.mobile.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .hero__aditional {
+    background-image: url("../../img/hero.word.mobile.svg");
+    background-repeat: no-repeat;
+    background-position: right 415px;
+  }
+
+  .hero__wrapper {
+    max-width: 338px;
+  }
+
+  .hero__content {
+    padding-top: 207px;
+    padding-bottom: 173px;
+    max-width: 338px;
+  }
+
+  .hero__title {
+    max-width: 338px;
+    font-size: 44px;
+    line-height: 130%;
+    letter-spacing: 0.02em;
+    margin-bottom: 24px;
+    position: relative;
+    z-index: 2;
+  }
+
+  .hero__title::after {
+    background-repeat: no-repeat;
+    background-image: url("../../img/hero.line.mobile.svg");
+    left: 0;
+    top: 56px;
+    z-index: -1;
+  }
+
+  .hero__text {
+    max-width: 227px;
+    font-size: 18px;
+    line-height: 140%;
+    margin-bottom: 48px;
+  }
+}
